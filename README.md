@@ -1,7 +1,5 @@
-![Alt text](http://gaiaehr.org/wp-content/uploads/2012/10/gaiaehr_white_100px1.png)
-=====================
 
-[Untusoft](http://www.gaiaehr.org/) is a Open source Web-Based Software for:
+[Untusoft](http://www.untusoft.com/) is a Open source Web-Based Software for:
 * Medic Practice management
 * Electronic Medical Records
 * Prescription writing and medical billing application
@@ -24,8 +22,5 @@ Mobile Application:
 
 Setup documentation can be found in the INSTALL file,
 and extensive documentation can be found at the Untusoft web site at:
-[Read more](http://www.Untusoft.org/).
+[Read more](http://www.untusoft.com/).
 
-License
--------
-This project is open sourced under [GNU GPL Version 3](https://github.com/gaiaehr/gaiaehr/blob/master/LICENSE).
