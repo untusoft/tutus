@@ -68,7 +68,7 @@ Ext.define('App.view.sitesetup.SiteSetup',
 				{
 					fields:['value', 'name'],
 					data:[
-						{value:'Production', name:'Production/Clinic'},
+						{value:'Production', name:'Production'},
 						{value:'Development', name:'Development'},
 						{value:'Testing', name:'Testing'}
 					]

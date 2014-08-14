@@ -1,7 +1,7 @@
 <?php
 /**
- * Untusoft (Untusoft Application)
- * Copyright (C) 2014 Untusoft.
+ * GaiaEHR (Electronic Health Records)
+ * Copyright (C) 2013 Certun, LLC.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,23 +22,19 @@ if(!defined('site_db_host')) define('site_db_host', 'localhost');
 if(!defined('site_db_port')) define('site_db_port', '3306');
 if(!defined('site_db_username')) define('site_db_username', 'root');
 if(!defined('site_db_password')) define('site_db_password', 'rahasia');
-if(!defined('site_db_database')) define('site_db_database', 'gaiaehr');
+if(!defined('site_db_database')) define('site_db_database', 'tutus');
 /**
  * AES Key
  * 256bit - key
  */
-if(!defined('site_aes_key')) define('site_aes_key', 'vi8cj7v0pe82a8axfyojz8v7kcfouffh');
-/**
- * HL7 server values
- */
-if(!defined('site_hl7_ports')) define('site_hl7_ports', '9100');
+if(!defined('site_aes_key')) define('site_aes_key', 'i0hioxq06xpjwddkjzmh57yux2e5xzu6');
 /**
  * Default site language and theme
- * Check if the localization variable already has a value, if not pass the 
+ * Check if the localization variable already has a value, if not pass the
  * default language.
  */
 if(!defined('site_name')) define('site_name', 'default');
-if(!defined('site_theme')) define('site_theme', 'ext-all');
+if(!defined('site_theme')) define('site_theme', 'ext-all-gray');
 if(!defined('site_timezone')) define('site_timezone', 'Asia/Jakarta');
 if(!defined('site_default_localization')) define('site_default_localization', 'en_US');
 if(!defined('site_id')) define('site_id', basename(dirname(__FILE__)));

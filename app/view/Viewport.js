@@ -646,8 +646,8 @@ Ext.define('App.view.Viewport', {
 		this.setWindowTitle(rec.data.option_name)
 	},
 */
-	setWindowTitle:function(facility){
-		window.document.title = ' :: Untusoft :: ' + facility;
+	setWindowTitle:function(){
+		window.document.title = 'Untusoft :: '; // + facility;
 	},
 
     /**
@@ -1308,6 +1308,7 @@ Ext.define('App.view.Viewport', {
      */
     appRender: function(){
         this.loadModules();
+        this.setWindowTitle();
     },
 
     /**
@@ -1400,7 +1401,7 @@ Ext.define('App.view.Viewport', {
     resetApp:function(){
 	    Ext.Msg.show({
 		    title:'WAIT!!! FOR DEBUG ONLY',
-		    msg: 'This will erase all patients and related data. Do you want to continue?',
+		    msg: 'This will erase all transactions and related data. Do you want to continue?',
 		    buttons: Ext.Msg.YESNO,
 		    icon: Ext.Msg.QUESTION,
 		    fn:function(btn){
